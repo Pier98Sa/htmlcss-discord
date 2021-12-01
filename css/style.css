@@ -21,6 +21,11 @@ html{
     display: table;
     clear: both;
 }
+.clearflix{
+    content: "";
+    display: table;
+    clear: both;
+}
 
 .btn{
     border-radius: 40px;
@@ -42,7 +47,7 @@ html{
 
 /*debug*/
 .debug{
-    height: 500px;
+    height: 700px;
 }
 .debug .container {
     border: solid 1px #000;
@@ -109,7 +114,7 @@ header nav ul li{
     padding-top: 100px;
     margin-bottom: 50px;
     color: #fff;
-    font-size: 4em;
+    font-size: 3.5em;
 }
 
 #jumbotron p{
@@ -129,8 +134,31 @@ header nav ul li{
 
 /*regole main*/
 
-main{
-    background-color: yellow;
+main .text p{
+    text-align: left;
+    font-size: 1.3em;
+    width: 80%;
+    margin-top: 25px;
+}
+
+main .text h2{
+    width: 80%;
+    font-size: 3em;
+    text-align: left;
+
+}
+main img{
+    width: 50%;
+    float:left;
+    margin-right: 10%;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.text{
+    float: left;
+    width: 40%;
+    margin-top: 105px;
 }
 
 
