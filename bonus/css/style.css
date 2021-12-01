@@ -297,7 +297,10 @@ header nav ul li a:hover{
 }
 /*effetto wave*/
 
-.container.waves{
+
+.waves{
     background-color: #f6f6f6;
-   margin-top: -5px;
+}
+.waves .su{
+    margin-bottom: -5px;
 }
