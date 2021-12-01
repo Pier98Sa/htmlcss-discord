@@ -28,13 +28,31 @@ html{
     text-decoration: none;
     background-color: #fff;
     padding: 8px 16px;
+    display: inline-block;
+}
+
+.btn.btn-big{
+    padding: 16px 32px;
+}
+
+.btn.btn-big.btn-black{
+    background-color: #23272a;
+    color: #fff;
+}
+
+/*debug*/
+.debug{
+    height: 500px;
+}
+.debug .container {
+    border: solid 1px #000;
 }
 
 /*regole header*/
 header{
     background-color: #3161e0;
-    height: 100px;
-    line-height: 100px;
+    height: 80px;
+    line-height: 80px;
 }
 
 #logo{
@@ -68,18 +86,56 @@ header nav ul li{
     width: 15%;
     text-align: right;
 }
-
+#login .btn{
+    display: inline;
+}
 
 
 /*regole jumbotron*/
+#jumbotron{
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-position: center;
+    min-height: 600px;
+    color: #fff;
+}
 
+#jumbotron .container{
+    max-width: 780px;
+    text-align: center;
+}
 
+#jumbotron h1{
+    padding-top: 100px;
+    margin-bottom: 50px;
+    color: #fff;
+    font-size: 4em;
+}
 
+#jumbotron p{
+    margin-bottom: 30px;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+.fas{
+    padding-right: 10px;
+}
+
+#jumbotron .btn.btn-big.btn-black{
+    margin-left: 20px;
+}
 
 
 /*regole main*/
 
-
+main{
+    background-color: yellow;
+}
 
 
 /*regole footer*/
+
+footer{
+    background-color:purple;
+}
