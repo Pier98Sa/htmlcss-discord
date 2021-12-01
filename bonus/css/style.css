@@ -1,0 +1,276 @@
+/*Regole comuni*/
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    font-family: Helvetica, sans-serif;
+}
+
+.container{
+    width: 80%;
+    max-width: 1180px;
+    margin: 0 auto;
+    height: 100%;
+}
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.clearflix{
+    
+    clear: both;
+}
+
+.btn{
+    border-radius: 40px;
+    color: #000;
+    text-decoration: none;
+    background-color: #fff;
+    padding: 8px 16px;
+    display: inline-block;
+}
+
+.btn.btn-big{
+    padding: 16px 32px;
+}
+
+.btn.btn-big.btn-black{
+    background-color: #23272a;
+    color: #fff;
+}
+
+/*debug*/
+.debug{
+    height: 500px;
+}
+.debug .container {
+    border: solid 1px #000;
+}
+
+/*regole header*/
+header{
+    background-color: #3161e0;
+    height: 80px;
+    line-height: 80px;
+}
+
+#logo{
+    float: left;
+    width: 15%;
+}
+
+#logo img{
+    vertical-align: middle;
+}
+header nav{
+    float: left;
+    width: 70%;
+}
+
+header nav ul {
+    text-align: center;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    margin: 0px 20px;
+}
+header nav ul li{
+    display: inline-block;
+}
+
+#login{
+    float: right;
+    width: 15%;
+    text-align: right;
+}
+#login .btn{
+    display: inline;
+}
+
+
+/*regole jumbotron*/
+#jumbotron{
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-position: center;
+    min-height: 600px;
+    color: #fff;
+}
+
+#jumbotron .container{
+    max-width: 780px;
+    text-align: center;
+}
+
+#jumbotron h1{
+    padding-top: 100px;
+    margin-bottom: 50px;
+    color: #fff;
+    font-size: 3.5em;
+}
+
+#jumbotron p{
+    margin-bottom: 30px;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+.fas{
+    padding-right: 10px;
+}
+
+#jumbotron .btn.btn-big.btn-black{
+    margin-left: 20px;
+}
+
+
+/*regole main*/
+main .text p{
+    text-align: left;
+    font-size: 1.3em;
+    width: 80%;
+    margin-top: 25px;
+}
+
+main .text h2{
+    width: 80%;
+    font-size: 3em;
+    text-align: left;
+
+}
+main .img-float{
+    width: 50%;
+    float:left;
+    margin-right: 10%;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.text{
+    float: left;
+    width: 40%;
+    margin-top: 105px;
+}
+
+.container .img-big{
+    width: 100%;
+}
+
+.container .text-img-big{
+    text-align: center;
+}
+.text-img-big h2{
+    font-size: 2.8em;
+}
+.text-img-big p{
+    font-size: 1.15em;
+    margin-top: 30px;
+}
+
+.cta{
+    text-align: center;
+    font-size: 1.2em;
+}
+.cta h2{
+    margin-top: -15px;
+    margin-right: 10px;
+}
+
+.cta .btn.btn-big{
+    background-color: #8ea1e1;
+    color: #fff;
+    margin-top: 40px;
+    margin-bottom:100px;
+}
+
+
+
+
+/*regole footer*/
+
+footer{
+  background-color: #23272a;
+ color: #fff;
+}
+.footer-text{
+    margin-top: 60px;
+}
+footer .colonna{
+    width: 18%;
+    float: left;
+    margin-top: 20px;
+}
+
+footer .colonna.grande{
+    width: 28%;
+}
+
+.footer-text h3{
+    color:#7188d7;
+    margin-bottom:20px;
+}
+
+.bandiera{
+    width: 1.2em;
+    vertical-align: middle;
+}
+.lingue .paese{
+    vertical-align: middle;
+}
+
+.lingue .paese .fas{
+    vertical-align: middle;
+}
+footer .titolo-footer{
+    font-size: 2em;
+}
+
+.icone-social .fab{
+    margin-top: 20px;
+    margin-right: 20px;
+    font-size: 1.2em;
+}
+.colonna li{
+    list-style: none;
+    padding: 10px 0px;
+}
+.colonna li a{
+    color: white;
+    text-decoration: none;
+}
+
+/*regole hr*/
+hr{
+  color: #2d3340;  
+  margin-top: 20px;
+}
+
+/*regole della row del footer*/
+.row-footer{
+    padding-top: 30px;
+    margin-bottom: 100px;
+}
+
+.logo-footer{
+   float: left;
+   width: 91%;
+}
+
+
+.registrati{
+   float: right;
+   width: 5%;
+   text-align: right;
+}
+
+.btn.btn-azzurro{
+    background-color:#8ea1e1;
+    color: #fff;
+}
