@@ -15,12 +15,12 @@ html{
     margin: 0 auto;
     height: 100%;
 }
-
 .row::after{
     content: "";
     display: table;
     clear: both;
 }
+
 .clearflix{
     
     clear: both;
@@ -46,7 +46,7 @@ html{
 
 /*debug*/
 .debug{
-    height: 700px;
+    height: 500px;
 }
 .debug .container {
     border: solid 1px #000;
@@ -132,7 +132,6 @@ header nav ul li{
 
 
 /*regole main*/
-
 main .text p{
     text-align: left;
     font-size: 1.3em;
@@ -160,7 +159,7 @@ main .img-float{
     margin-top: 105px;
 }
 
-.container  .img-big{
+.container .img-big{
     width: 100%;
 }
 
@@ -188,6 +187,7 @@ main .img-float{
     background-color: #8ea1e1;
     color: #fff;
     margin-top: 40px;
+    margin-bottom:100px;
 }
 
 
@@ -196,5 +196,81 @@ main .img-float{
 /*regole footer*/
 
 footer{
-    background-color:purple;
+  background-color: #23272a;
+ color: #fff;
+}
+.footer-text{
+    margin-top: 60px;
+}
+footer .colonna{
+    width: 18%;
+    float: left;
+    margin-top: 20px;
+}
+
+footer .colonna.grande{
+    width: 28%;
+}
+
+.footer-text h3{
+    color:#7188d7;
+    margin-bottom:20px;
+}
+
+.bandiera{
+    width: 1.2em;
+    vertical-align: middle;
+}
+.lingue .paese{
+    vertical-align: middle;
+}
+
+.lingue .paese .fas{
+    vertical-align: middle;
+}
+footer .titolo-footer{
+    font-size: 2em;
+}
+
+.icone-social .fab{
+    margin-top: 20px;
+    margin-right: 20px;
+    font-size: 1.2em;
+}
+.colonna li{
+    list-style: none;
+    padding: 10px 0px;
+}
+.colonna li a{
+    color: white;
+    text-decoration: none;
+}
+
+/*regole hr*/
+hr{
+  color: #2d3340;  
+  margin-top: 20px;
+}
+
+/*regole della row del footer*/
+.row-footer{
+    padding-top: 30px;
+    margin-bottom: 100px;
+}
+
+.logo-footer{
+   float: left;
+   width: 91%;
+}
+
+
+.registrati{
+   float: right;
+   width: 5%;
+   text-align: right;
+}
+
+.btn.btn-azzurro{
+    background-color:#8ea1e1;
+    color: #fff;
 }
