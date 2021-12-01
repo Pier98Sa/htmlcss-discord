@@ -274,3 +274,30 @@ hr{
     background-color:#8ea1e1;
     color: #fff;
 }
+
+/*effetti di hover*/
+header nav ul li a:hover{
+    text-decoration: underline;
+}
+
+.footer-text a:hover{
+    text-decoration: underline;
+}
+
+.btn:hover{
+    box-shadow: 2px 5px 20px #000;
+
+}
+.btn-azzurro:hover{
+    background-color: #3161e0;
+}
+
+.btn.btn-big:hover{
+    color: #3161e0;
+}
+/*effetto wave*/
+
+.container.waves{
+    background-color: #f6f6f6;
+   margin-top: -5px;
+}
