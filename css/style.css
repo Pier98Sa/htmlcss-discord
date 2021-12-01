@@ -22,8 +22,7 @@ html{
     clear: both;
 }
 .clearflix{
-    content: "";
-    display: table;
+    
     clear: both;
 }
 
@@ -147,7 +146,7 @@ main .text h2{
     text-align: left;
 
 }
-main img{
+main .img-float{
     width: 50%;
     float:left;
     margin-right: 10%;
@@ -160,6 +159,38 @@ main img{
     width: 40%;
     margin-top: 105px;
 }
+
+.container  .img-big{
+    width: 100%;
+}
+
+.container .text-img-big{
+    text-align: center;
+}
+.text-img-big h2{
+    font-size: 2.8em;
+}
+.text-img-big p{
+    font-size: 1.15em;
+    margin-top: 30px;
+}
+
+.cta{
+    text-align: center;
+    font-size: 1.2em;
+}
+.cta h2{
+    margin-top: -15px;
+    margin-right: 10px;
+}
+
+.cta .btn.btn-big{
+    background-color: #8ea1e1;
+    color: #fff;
+    margin-top: 40px;
+}
+
+
 
 
 /*regole footer*/
