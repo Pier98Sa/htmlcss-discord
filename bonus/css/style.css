@@ -277,6 +277,10 @@ hr{
     color: #fff;
 }
 
+.footer-text a{
+    color: #fff;
+}
+
 /*effetti di hover*/
 header nav ul li a:hover{
     text-decoration: underline;
@@ -296,6 +300,21 @@ header nav ul li a:hover{
 
 .btn.btn-big:hover{
     color: #3161e0;
+}
+
+.fab.fa-twitter:hover{
+    color: #55aded;
+}
+
+.fab.fa-instagram:hover{
+    color: #b024b8;
+}
+.fab.fa-facebook:hover{
+    color: #2a73ba;
+}
+
+.fab.fa-youtube:hover{
+    color: #ff0000;
 }
 /*effetto wave*/
 

@@ -239,6 +239,9 @@ footer .titolo-footer{
     margin-right: 20px;
     font-size: 1.2em;
 }
+.footer-text a{
+    color: #fff;
+}
 .colonna li{
     list-style: none;
     padding: 10px 0px;
