@@ -94,7 +94,9 @@ header nav ul li{
     display: inline;
 }
 
-
+.logo a{
+    display: inline-block;
+}
 /*regole jumbotron*/
 #jumbotron{
     background-image: url(../img/jumbo.png);
