@@ -294,7 +294,10 @@ header nav ul li a:hover{
 .btn.btn-big:hover{
     color: #3161e0;
 }
-
+/*main*/
+.btn.btn-big.btn-azzurro:hover{
+    background-color: #fff;
+}
 /*footer*/
 .footer-text a:hover{
     text-decoration: underline;
