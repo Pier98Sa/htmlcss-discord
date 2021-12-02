@@ -322,6 +322,7 @@ header nav ul li a:hover{
 .waves{
     background-color: #f6f6f6;
 }
-.waves .su{
-    margin-bottom: -5px;
+
+.waves svg{
+    display: block;
 }
