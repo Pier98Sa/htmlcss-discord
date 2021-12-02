@@ -282,26 +282,26 @@ hr{
 }
 
 /*effetti di hover*/
+
+/*comune*/
+.btn:hover{
+    box-shadow: 2px 5px 20px #000;
+}
+/*header*/
 header nav ul li a:hover{
     text-decoration: underline;
 }
-
-.footer-text a:hover{
-    text-decoration: underline;
-}
-
-.btn:hover{
-    box-shadow: 2px 5px 20px #000;
-
-}
-.btn-azzurro:hover{
-    background-color: #3161e0;
-}
-
 .btn.btn-big:hover{
     color: #3161e0;
 }
 
+/*footer*/
+.footer-text a:hover{
+    text-decoration: underline;
+}
+.btn-azzurro:hover{
+    background-color: #3161e0;
+}
 .fab.fa-twitter:hover{
     color: #55aded;
 }
